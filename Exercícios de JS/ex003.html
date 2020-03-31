@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro programa!</title>
+    <style>
+        body{
+            background-color: rgb(24, 0, 235); /*Comentario em CSS*/
+            color: rgb(255, 255, 255);
+            font: normal 20pt Arial;
+        }
+        h1{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1> <!--Comentario em HTML-->
+    <p>Já me livrei da maldição!</p>
+    <script>
+        var n1 = Number.parseFloat(window.prompt('Digite um número: ')) //Conversão de string pra number
+        var n2 = Number.parseFloat(window.prompt('Digite outro número: ')) //Pois + serve para adição e concatenação
+        var s = n1 + n2 //Number.parseFloat(n), Number.parseInt(n) ou Number(n)
+        window.alert(`A soma dos valores é igual a ${s}`) //template string
+    </script>
+</body>
+</html>
+<!--s.lenght para quantos caracteres tem
+    s.toUpperCase() para jogar tudo pra maiúsculo
+    s.toLowerCase() para jogar tudo pra minúsculo-->
